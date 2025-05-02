@@ -3,7 +3,7 @@ from flask import (
     Blueprint, flash, g, redirect, render_template, request, session, url_for
 )
 from werkzeug.security import check_password_hash
-from personal_website.db import get_connection
+from db import get_connection
  
 auth_bp = Blueprint('auth', __name__, url_prefix='/auth')
  
