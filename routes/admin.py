@@ -1,6 +1,6 @@
 from flask import Blueprint, render_template, request, redirect, url_for, flash
-from ..routes.auth import login_required
-from ..db import get_connection
+from routes.auth import login_required
+from db import get_connection
 import base64
 
 admin_bp = Blueprint('admin', __name__, url_prefix='/admin')

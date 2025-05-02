@@ -1,5 +1,5 @@
 from flask import Blueprint, render_template
-from ..db import get_connection
+from db import get_connection
  
 home_bp = Blueprint('home', __name__, url_prefix='/')
  
