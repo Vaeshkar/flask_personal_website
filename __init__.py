@@ -1,6 +1,6 @@
 from flask import Flask
-from .routes import admin_bp, auth_bp, home_bp
-from .config import BaseConfig
+from routes import admin_bp, auth_bp, home_bp
+from config import BaseConfig
 from dotenv import load_dotenv
 load_dotenv()
  
