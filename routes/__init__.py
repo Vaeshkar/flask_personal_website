@@ -1,3 +1,3 @@
 from routes.admin import admin_bp
-from auth import auth_bp
-from home import home_bp
+from routes.auth import auth_bp
+from routes.home import home_bp
