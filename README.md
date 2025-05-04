@@ -11,6 +11,11 @@ The goal was not only to build the frontend, but also to **plan and architect** 
 
 ---
 
+## 🔗 URL
+https://flask-personal-website.onrender.com/
+
+---
+
 ## 📂 Features
 
 - Home page displaying personal information and projects.
